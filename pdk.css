@@ -1,0 +1,42 @@
+body, html
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-family: helvetica, arial;
+	background: url(sokrat_kot.png);
+	background-color: bisque;
+	color: bisque;
+}
+
+.img{
+
+	background-image: url("sokrat_kot.png");
+
+	background-size: no-repeat;
+
+	background-position: center;
+
+	background-size: auto;
+
+	height: 400px;
+
+	width: 400px;
+
+}
+
+nav {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+nav ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav li {
+    float:left;
+}
